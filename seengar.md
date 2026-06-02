@@ -475,3 +475,34 @@ In loving memory of Roshan Ali Sahab 🤲
 *Aakhri update: June 01, 2026 — Session 5*
 
 ITS-R Universe — In loving memory of Roshan Ali Sahab 🤲
+
+---
+
+## SESSION 5 — ADDENDUM: New Services Built (June 01, 2026)
+
+### ITS-R Bank 🏦
+- **GitHub:** ITS-R-universe/its-r-bank
+- **Vercel:** https://its-r-bank.vercel.app | prj_z56WesqkFjBlC0LLBdVqlCUxrG0k
+- **Pages:** Home, /wallet (balance+history), /deposit (Nayapay form)
+- **API:** /api/wallet, /api/transactions, /api/deposit, /api/admin, /api/setup
+- **Rate:** 100 PKR = 100 ITSR Coins (1:1) | Minimum: 100 PKR
+- **No withdrawal** — coins only inside ITS-R Universe
+- **Admin flow:** Founder confirms Nayapay → coins auto-credited
+
+### ITSR Coin 🪙
+- **GitHub:** ITS-R-universe/its-r-coin
+- **Vercel:** https://its-r-coin.vercel.app | prj_eI7LY6HBWgFsZxeZm8tx8cxBAl0t
+- **Total Supply:** 1,000,000,000,000 ITSR Coins
+- **Rate:** 100 PKR = 100 coins | Never expire (active users)
+- **Stats page:** supply, circulating, holders, transactions, PKR deposited
+
+### New Supabase Tables
+- itsr_bank_wallets — user wallets
+- itsr_coin_transactions — all movements
+- itsr_deposits — Nayapay requests
+- itsr_coin_stats — global stats
+
+### Build Stats
+- Time: 21.7 seconds | Files: 24 | Failures: 0
+
+ITS-R Universe — In loving memory of Roshan Ali Sahab 🤲
